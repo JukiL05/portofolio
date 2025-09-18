@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Jukil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Navigation -->
+        <nav class="nav">
+            <div class="nav-brand">PORTOFOLIO</div>
+            <ul class="nav-menu">
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#courses">Perkuliahan</a></li>
+                <li><a href="#hobbies">Hobi</a></li>
+                <li><a href="#work">Karya Saya</a></li>
+            </ul>
+        </nav>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="section-content">
+                <h1 class="section-title">Tentang Saya</h1>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="img/Jukil.jpg" alt="Foto profil JUAN">
+                    </div>
+                    <div class="about-text">
+                        <h2>Halo, Saya JUAN ENDRICK KILA</h2>
+                        <p>Saya adalah mahasiswa <b>UNIVERSITAS KRISTEN WIRA WACANA SUMBA</b> yang antusias dan berkemauan keras dengan passion dalam bidang teknologi dan pengembangan web. Saya senang mempelajari hal-hal baru dan selalu mencari tantangan untuk mengembangkan kemampuan saya.</p>
+                        <p>Dengan latar belakang pendidikan di bidang Ilmu <b>TEKNIK INFORMATIKA</b>, saya sedang mengembangkan keterampilan dalam pemrograman, desain, dan analisis sistem.</p>
+                        <h3>Contact & Social Media</h3>
+                        <a href="https://www.facebook.com/gianjericho.gianjericho/?" class="contact" ><img src="img/contact/facebook.png" alt="facebook"></a>
+                        <a href="https://m.youtube.com/@juankila6604" class="contact" ><img src="img/contact/youtube.png" alt="youtube"></a>
+                        <a href="https://www.instagram.com/jukil05_?igsh=ZDYyN2ttajJ3Ynhl" class="contact" ><img src="img/contact/instagram.png" alt="instagram"></a>
+                        <a href="https://www.tiktok.com/@jukilll05/" class="contact" ><img src="img/contact/tiktok.png" alt="tiktok"></a>
+                        <br>
+                        <p id="mail">Email: jknix2005@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- University Courses Section -->
+        <section id="courses" class="section courses-section">
+            <div class="section-content">
+                <h1 class="section-title">Perkuliahan</h1>
+                <div class="semester-selector">
+                    <button class="semester-btn active" data-semester="1">Semester 1</button>
+                    <button class="semester-btn" data-semester="2">Semester 2</button>
+                    <button class="semester-btn" data-semester="3">Semester 3</button>
+                    <button class="semester-btn" data-semester="4">Semester 4</button>
+                    <button class="semester-btn" data-semester="5">Semester 5</button>
+                </div>
+                <div class="table-container">
+                    <table class="courses-table">
+                        <thead>
+                            <tr>
+                                <th>Mata Kuliah</th>
+                                <th>Dosen Pengampu</th>
+                                <th>Nilai</th>
+                            </tr>
+                        </thead>
+                        <tbody id="courses-data">
+                            <!-- Data dimuat menggunakan javascript-->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Hobi -->
+        <section id="hobbies" class="section hobbies-section">
+            <div class="section-content">
+                <h1 class="section-title">Hobi & Gaya Hidup</h1>
+                <div class="hobbies-grid">
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <img src="img\hobbies/fitness.png" alt="Ilustrasi gambar alat gym">
+                        </div>
+                        <h3>Fitness</h3>
+                        <p>Saya suka berolahraga, mengangkat beban & kalistenik di GYM ataupun dirumah.</p>
+                    </div>
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <img src="img/hobbies/programming.png" alt="ilustrasi gambar seorang programmer">
+                        </div>
+                        <h3>Programming</h3>
+                        <p>Saya tertarik untuk mempelajari bahasa pemrograman dan mengerjakan proyek pribadi.</p>
+                    </div>
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <img src="img\hobbies/editing.png" alt="Ilustrasi Orang melakukan editing">
+                        </div>
+                        <h3>Editing</h3>
+                        <p>Mengedit foto & video juga merupakan hal yang saya gemari karena cukup menarik.</p>
+                    </div>
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <img src="img/hobbies/nongkrong.png" alt="NO ROKOK NO ALKOHOL">
+                        </div>
+                        <h3>Nongkrong</h3>
+                        <p>Ga nongki Ga WELLL🤪🤪.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Work Section -->
+        <section id="work" class="section work-section">
+            <div class="section-content">
+                <h1 class="section-title">Karya Saya</h1>
+                <div class="work-grid">
+                    <div class="work-card">
+                        <div class="work-image">
+                            <img src="img/work/portofolio1.png" alt="Tampilan website portofolio jukilll">
+                        </div>
+                        <div class="work-info">
+                            <h3>Website Portofolio Pertama</h3>
+                            <p>Website portofolio pribadi sebelumnya untuk memenuhi tugas Perkuliahan.</p>
+                            <a href="https://jukilll.github.io/portofolio_jukil/" target="_blank" class="work-link">Lihat Detail</a>
+                        </div>
+                    </div>
+                    <div class="work-card">
+                        <div class="work-image">
+                            <img src="img/work/filmPendek.png" alt="Thumbnail Hamba Yang Menderita">
+                        </div>
+                        <div class="work-info">
+                            <h3>Film Pendek "Hamba Yang Menderita"</h3>
+                            <p>Film pendek yang menceritakan seorang Hamba yang Menderita, untuk selengkapnya silahkan saksikan filmnya.</p>
+                            <a href="https://vt.tiktok.com/ZSDABNRht/" class="work-link" style="background-color: black;">TikTok</a>
+                            <a href="https://youtu.be/gh7fuTLrdaE?si=1265zqo7z_PwcO1c" target="_blank" class="work-link" style="background-color: red;">YouTube</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <q style="opacity: 50%;">Tidak ada belajar yang percuma kawan, Keep Up!</q>
+        </section>
+
+        
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Portfolio. Dibuat dengan ❤️ oleh JuKiL</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
