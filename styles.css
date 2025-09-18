@@ -63,7 +63,7 @@ body {
     font-size: 2rem;
     font-weight: bold;
     color: #d6d6d6;
-    text-shadow: 0 0 6px #225e86;
+    text-shadow: 0 0 10px #225e86;
 }
 
 .nav-menu {
@@ -72,14 +72,14 @@ body {
 }
 
 .nav-menu li {
-    margin-left: 30px;
+    fon-family: 'Franklin Gothic Medium;
+    font-size: small
+    display: flex;
 }
 
 .nav-menu a {
     text-decoration: none;
     color: #d6d6d6;
-    font-family: 'Trebuchet MS';
-    
     transition: color 0.3s;
 }
 
